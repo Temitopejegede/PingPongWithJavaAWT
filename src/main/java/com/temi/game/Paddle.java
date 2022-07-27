@@ -3,7 +3,9 @@ package com.temi.game;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class Paddle {
+public class Paddle extends Rectangle{
+    int id;
+    int yVelocity;
     Paddle(){
 
     }
